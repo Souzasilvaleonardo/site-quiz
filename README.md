@@ -1,4 +1,4 @@
-# site-quiz JavaScript
+# Quiz de Perguntas e Respostas
 
 ## Tecnologias Utilizadas
 

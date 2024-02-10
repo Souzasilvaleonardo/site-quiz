@@ -1,95 +1,96 @@
 const perguntas = [
-    {
-      pergunta: "O que é JavaScript?",
-      respostas: [
-        "Uma linguagem de programação para desenvolvimento de páginas web",
-        "Um tipo de café famoso pela sua qualidade",
-        "Um sistema operacional para dispositivos móveis",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual é a função do operador '===' em JavaScript?",
-      respostas: [
-        "Comparação estrita de valores, verificando igualdade de valor e tipo de dado",
-        "Concatenação de strings",
-        "Operador de subtração",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual é a maneira correta de declarar uma variável em JavaScript?",
-      respostas: [
-        "var x = 10;",
-        "variavel x = 10;",
-        "x = 10;",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "O que é uma função em JavaScript?",
-      respostas: [
-        "Um bloco de código reutilizável que executa uma determinada tarefa",
-        "Um número aleatório",
-        "Uma string de caracteres",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual é a função do método 'querySelector()' em JavaScript?",
-      respostas: [
-        "Selecionar um elemento HTML com base em um seletor CSS",
-        "Calcular uma operação matemática",
-        "Definir o estilo de um elemento HTML",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "O que é uma 'promise' em JavaScript?",
-      respostas: [
-        "Um objeto usado para representar o resultado de uma operação assíncrona",
-        "Uma declaração condicional",
-        "Um tipo de variável",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual é a diferença entre 'let' e 'const' em JavaScript?",
-      respostas: [
-        "let permite reatribuição de valor, enquanto const não permite",
-        "const é usado para criar funções, enquanto let é usado para declarar constantes",
-        "Não há diferença entre let e const",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "O que é 'hoisting' em JavaScript?",
-      respostas: [
-        "O comportamento de mover declarações de variáveis e funções para o topo do seu escopo",
-        "Um método de animação para elementos HTML",
-        "Uma técnica para escrever comentários de múltiplas linhas",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual é a finalidade do método 'map()' em JavaScript?",
-      respostas: [
-        "Iterar sobre os elementos de um array e criar um novo array com os resultados de uma função aplicada a cada elemento",
-        "Dividir uma string em substrings com base em um separador",
-        "Adicionar um novo elemento no final de um array",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "O que é 'scope' em JavaScript?",
-      respostas: [
-        "O contexto no qual as variáveis ​​são acessíveis",
-        "Um tipo de estrutura de dados",
-        "Um método para converter valores de uma string para números",
-      ],
-      correta: 0
-    },
-  ];
+  {
+    pergunta: "O que é uma consultora de moda?",
+    respostas: [
+      "Uma profissional especializada em consertar roupas",
+      "Uma pessoa que trabalha na indústria têxtil",
+      "Uma especialista em ajudar indivíduos a escolherem roupas e acessórios adequados ao seu estilo e corpo",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual é o principal objetivo de uma consultora de moda?",
+    respostas: [
+      "Vender roupas de marca",
+      "Criar tendências de moda",
+      "Ajudar os clientes a desenvolverem sua própria identidade visual e se sentirem confiantes com sua aparência",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Quais são as habilidades necessárias para ser uma boa consultora de moda?",
+    respostas: [
+      "Conhecimento em maquiagem",
+      "Experiência em vendas",
+      "Capacidade de análise de estilo, conhecimento das tendências da moda e habilidades de comunicação",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual é o papel de uma consultora de moda em uma sessão de consultoria?",
+    respostas: [
+      "Determinar o preço das roupas",
+      "Aconselhar os clientes sobre o que vestir com base em seu gosto pessoal",
+      "Realizar operações de caixa",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "O que é um 'personal shopper'?",
+    respostas: [
+      "Um tipo de loja de roupas online",
+      "Uma pessoa que ajuda os clientes a escolherem roupas e acessórios, muitas vezes fazendo compras em nome deles",
+      "Um termo para um tipo específico de calçado",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é a importância da consultoria de moda?",
+    respostas: [
+      "Aumentar o preço das roupas",
+      "Ajudar as pessoas a se sentirem confortáveis com sua aparência e a expressarem sua individualidade através da moda",
+      "Promover marcas de moda famosas",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "O que é um 'lookbook'?",
+    respostas: [
+      "Uma espécie de catálogo de roupas e acessórios",
+      "Um tipo de evento de moda",
+      "Um acessório usado para amarrar os cabelos",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual é a diferença entre 'estilo' e 'moda'?",
+    respostas: [
+      "Não há diferença entre os dois termos",
+      "Estilo se refere a tendências temporárias, enquanto moda é uma expressão pessoal duradoura",
+      "Moda se refere a tendências temporárias, enquanto estilo é uma expressão pessoal duradoura",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "O que é um 'personal stylist'?",
+    respostas: [
+      "Um termo para um tipo de tecido",
+      "Uma pessoa que projeta roupas exclusivas para clientes famosos",
+      "Um profissional que ajuda os indivíduos a desenvolverem um estilo pessoal e a escolherem roupas que realcem sua aparência",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "O que é 'acessibilidade na moda'?",
+    respostas: [
+      "A disponibilidade de roupas de luxo",
+      "A prática de tornar a moda acessível a pessoas de todas as idades",
+      "A adaptação de roupas e acessórios para pessoas com deficiência",
+    ],
+    correta: 2
+  },
+];
+
 
   // copiamos o id quiz do bloco div que fica fora do bloco template
   const quiz = document.querySelector('#quiz')
