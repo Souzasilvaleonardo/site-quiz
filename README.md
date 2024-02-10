@@ -1,1 +1,1 @@
-# site-quiz
+# site-quiz JavaScript
