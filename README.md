@@ -5,4 +5,4 @@
 - HTML
 - CSS
 - JavaScript
-- GitHub
+- GitHub.
